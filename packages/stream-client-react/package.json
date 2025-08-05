@@ -13,7 +13,7 @@
     "react": "^19.1.0"
   },
   "dependencies": {
-    "@motiadev/stream-client-browser": "workspace:*"
+    "@motiadev/stream-client-browser": "file:../stream-client-browser"
   },
   "devDependencies": {
     "@types/react": "^19.0.7",

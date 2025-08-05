@@ -22,6 +22,9 @@ importers:
       axios:
         specifier: ^1.9.0
         version: 1.9.0
+      pnpm:
+        specifier: ^10.13.1
+        version: 10.13.1
     devDependencies:
       '@eslint/js':
         specifier: ^9.28.0
@@ -6568,6 +6571,11 @@ packages:
   playwright@1.52.0:
     resolution: {integrity: sha512-JAwMNMBlxJ2oD1kce4KPtMkDeKGHQstdpFPcPH3maElAXon/QZeTvtsfXmTMRyO9TslfoYOXkSsvao2nE1ilTw==}
     engines: {node: '>=18'}
+    hasBin: true
+
+  pnpm@10.13.1:
+    resolution: {integrity: sha512-N+vxpcejDV+r4MXfRO6NpMllygxa89urKMOhaBtwolYhjQXIHJwNz3Z+9rhVHrW5YAQrntQwDFkkIzY3fgHPrQ==}
+    engines: {node: '>=18.12'}
     hasBin: true
 
   possible-typed-array-names@1.1.0:
@@ -15167,6 +15175,8 @@ snapshots:
       playwright-core: 1.52.0
     optionalDependencies:
       fsevents: 2.3.2
+
+  pnpm@10.13.1: {}
 
   possible-typed-array-names@1.1.0: {}
 
